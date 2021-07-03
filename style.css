@@ -39,6 +39,9 @@ nav{
     height: 100px;
     margin: auto; 
 }
+a {
+    color: black;
+}
 #logo{
     display: flex;
     justify-content: space-between;
