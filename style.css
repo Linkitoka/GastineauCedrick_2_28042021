@@ -665,9 +665,10 @@ h6{
 }
 
 .footer_1 a{
+    font-family: 'raleway-light';
     text-decoration: none;
     margin: 8px;
-    font-family:"raleway-light" serif;
+    
     
 }
 .footer_2{
@@ -681,7 +682,7 @@ h6{
 .footer_2 a{
     text-decoration: none;
     margin: 8px;
-    font-family:"raleway-light" serif;
+    font-family:'raleway-light';
     
 }.footer_3{
     display: flex;
@@ -693,7 +694,7 @@ h6{
 .footer_3 a{
     text-decoration: none;
     margin: 8px;
-    font-family:"raleway-light" serif;
+    font-family:'raleway-light';
     
 }
 
@@ -755,7 +756,7 @@ h6{
     .choice1{
         padding-bottom: 10px;
         border-bottom: 3px solid #0065fc;
-        border-bottom-width: 100%;
+        
         margin-right: 0;
        
     }
@@ -888,5 +889,4 @@ h6{
 
 
 }
-
 
