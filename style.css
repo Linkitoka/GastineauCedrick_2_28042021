@@ -216,6 +216,11 @@ button:active{
     justify-content: space-between;
     width: 60%;
 }
+#filter_button p {
+    font-family: "raleway-bold", serif;
+    font-size: 1.3em;
+    margin-top: 15px;
+}
 #filter_button .fas::before{
     margin-top: 4px;
 }
