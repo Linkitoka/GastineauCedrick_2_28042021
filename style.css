@@ -697,7 +697,97 @@ h5{
 }
 
 /* Phone responsive */
+@media screen and (max-width:  780px){
+    
+    #page_block {
+        max-width: 760px;
+        margin: 0;
+    }
+    #menu_filter, h1, h2, h4{
+        padding: 20px;
+    }
+    
+    #filter_button{
+        flex-wrap: wrap;
+    }
+    #box_background{
+        width: auto;
+        height: auto;
+        background: transparent;
+        margin-top: 100px;
+        margin-bottom: auto;
+        padding: 10px;
 
+    }
+    .frame, .frame2{
+        width: 300px;
+    }
+    
+    #accommodation_section{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+    #box_background{
+        width: auto;
+        height: auto;
+        background: transparent;
+        margin-top: 150px;
+        margin-bottom: auto;
+        padding: 10px;
+    }
+    aside {
+        width: 100%;
+        left: 0;
+    }
+    #accommodation_section{
+        margin-left: 0;
+        left: 0;
+        width: 100%;
+    }
+    #box_aside_background{
+        width: 600px ;
+        margin-left: 60px;
+        margin-bottom: 25px;
+        border-radius: 25px;
+    }
+    #box_background{
+        width: 700px;
+        margin-left: 25px;
+        background: #F2F2F2;
+        border-radius: 25px;
+
+    }
+    .aside_box{
+        width: 80%;
+        margin-left: 50px;
+        
+    }
+    section{
+        display: grid;
+    }
+    
+    #regroup_activity{
+        display: grid;
+        margin-left: 35px;
+        height: 950px;
+        row-gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 12rem 12rem 12rem;
+
+    }
+
+    .activity1, .activity2, .activity3, .activity4{
+        
+
+    }
+    .banner_1, .banner_2, .banner_3, .banner_4{
+        
+    }
+    
+    
+    
+}
 @media screen and (max-width: 380px)
 {
     #page_block{
@@ -706,17 +796,12 @@ h5{
     }
     nav{
         width: 100%;
-        margin-bottom: 75px;
-        
-        
+        margin-bottom: 75px;  
         
     }
     #logo{
-        
         display: flex;
         flex-direction: column;
-        
-
     }
     ul{
         margin: 0;
@@ -724,7 +809,6 @@ h5{
         width: auto;
         text-align: center;
         justify-content: center;
-        
         
     }
     li:last-child{
@@ -738,7 +822,6 @@ h5{
         border-bottom: none;
     }
     
-    
     li {
        display: inline-flex;
        width: 100%;
@@ -747,14 +830,12 @@ h5{
        padding-left: 0;
       
     }
-
     li:hover{
         border-top:none;
     }
     .choice1{
         padding-bottom: 10px;
         border-bottom: 3px solid #0065fc;
-        
         margin-right: 0;
        
     }
