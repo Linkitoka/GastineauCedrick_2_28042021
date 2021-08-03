@@ -7,7 +7,7 @@ Second projet de la formation développeur web d'Openclassrooms, a pour objectif
 ----------
 ## Cahier des charges
 
-* Les icônes proviennent de la bibliothèque [Font Awesome] (https://fontawesome.com)
+* Les icônes proviennent de la bibliothèque [Font Awesome](https://fontawesome.com)
 * Les couleurs de la charte sont le bleu #0065FC, et sa version plus claire #DEEBFF ainsi que le gris pour le fond #F2F2F2.
 * La police du site est Raleway.
 * Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité mais seront vide.
@@ -22,6 +22,6 @@ Second projet de la formation développeur web d'Openclassrooms, a pour objectif
 ----------
 ## Contact
 
-URL vers le projet : [Réservia]https://linkitoka.github.io/Reservia.io/
+URL vers le projet : Réservia [Réservia](https://linkitoka.github.io/Reservia.io/)
 Me contacter pour toutes remarques : gas.cedrick@gmail.com
 
