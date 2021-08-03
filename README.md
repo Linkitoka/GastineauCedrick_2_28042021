@@ -22,6 +22,6 @@ Second projet de la formation développeur web d'Openclassrooms, a pour objectif
 ----------
 ## Contact
 
-URL vers le projet : [Réservia](https://linkitoka.github.io/Reservia.io/)
+URL vers le projet : Réservia [Réservia](https://linkitoka.github.io/Reservia.io/)
 Me contacter pour toutes remarques : gas.cedrick@gmail.com
 
