@@ -51,8 +51,11 @@ a {
     width: 120px;
     height: 100px;
 }
- .choice1, .choice2{
-    color: #000000;
+.choice2{
+    color: rgb(0, 0, 0);
+}
+.choice3{
+    color: #0065FC;
 }
 .choice1:hover, .choice2:hover{
     color: #0065FC;
@@ -75,20 +78,15 @@ header{
     margin-bottom: 35px;
 }
 header a {
-    color: #0065FC;
     width: 100%;
     text-decoration: none;  
-    
 }
 p{
     font-size: 1.2em;
-    
 }
 
-li:hover{
+li:hover {
     border-top: 3px solid #0065FC;
-    
-    
 }
 
 
@@ -638,33 +636,26 @@ h4 {
    display: flex;
    background: #F2F2F2;
    margin-top: 50px;
-   
-   
 }
 #content_footer{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     width: 1440px;
     height: 250px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-between;
-    
-    
-
 }
 #footer_background a:visited{
     color: #000000;
 }
 h5{
     font-size: 1.3em;
-    
+    margin-left: 10px;
     margin-bottom: 10px;
 }
 .footer_1{
     display: flex;
     flex-direction: column;
-    
     
 
 }
@@ -893,9 +884,11 @@ h5{
         position: absolute;
         top: 0;
         right: 0;
+        
     }
-    li .choice3:last-child:hover{
+    li:hover .choice3{
         border-bottom: none;
+        
     }
     
     li {
@@ -1042,4 +1035,3 @@ h5{
         margin-left: 10px;
     }
 }
-
