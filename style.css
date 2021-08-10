@@ -133,7 +133,7 @@ h3{
 
 #research{
     display: flex;
-    border: 1px solid #F2F2F2;
+    border: 1px solid #f0f0f0;
     border-radius: 15px;
     width: 420px;
     height: 45px;
@@ -322,7 +322,10 @@ em{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 25px;
 }
 #acco_model p{
     font-size: 15px;
@@ -350,7 +353,6 @@ em{
     height: 200px;
     border: 6px solid #ffffff;
     border-radius: 15px;
-    margin: 15px;
     box-shadow: 1px 1px 15px  #9b9b9b;
 }
 .frame img,.frame2 img{
@@ -539,6 +541,7 @@ h4 {
     width: 320px;
     height: 450px;
     justify-content: space-between;
+    align-items: center ;
 }
 .activity2{
     
@@ -774,7 +777,7 @@ h5{
 
     }
 }
-@media screen and (min-width:416px) and (max-width:  780px) {
+@media screen and (min-width:451px) and (max-width:  1024px) {
     
     #page_block {
         max-width: 760px;
@@ -855,7 +858,7 @@ h5{
 
     }
 }
-@media screen and (max-width: 415px)
+@media screen and (max-width: 450px)
 {
     #page_block{
         width: auto;
@@ -904,7 +907,7 @@ h5{
     }
     .choice1{
         padding-bottom: 10px;
-        border-bottom: 3px solid #0065fc;
+        border-bottom: 3px solid grey;
         margin-right: 0;
        
     }
@@ -913,17 +916,24 @@ h5{
         border-bottom: 3px solid grey;
         margin-left: 0;
     }
+    .choice1:hover, .choice2:hover{
+        padding-bottom: 10px;
+        border-bottom: 3px solid #0065FC;
+        margin-right: 0;
+    }
     h2{
         letter-spacing: 0;
     }
     #research{
-        max-width: 350px;
+        max-width: 270px;
         
     }
     .onglet{
-        width: 180px;
+        width: 110px;
+        text-overflow: ellipsis;
     }
     .send{
+        width: 110px;
         margin-right: 0;
     }
     #menu_filter, h1, h2{
@@ -967,12 +977,13 @@ h5{
         background: transparent;
         margin-top: 100px;
         margin-bottom: auto;
-        padding: 10px;
-
+    }
+    
+    #regroupement2{
+        width: auto;
     }
     .frame, .frame2{
         width: 300px;
-        
 
     }
     
@@ -981,9 +992,10 @@ h5{
 
     #regroup_activity{
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
-        margin-left: 20px;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
         
     }
     h4{
@@ -996,19 +1008,19 @@ h5{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 325px;
+        width: 300px;
         height: 200px;
         margin-bottom: 30px;
         
     }
     .activity1 img, .activity2 img, .activity3 img, .activity4 img{
 
-        width: 350px;
+        width: 300px;
         height: 200px;
         object-fit: cover;
     }
     .banner_1, .banner_2, .banner_3, .banner_4{
-        width: 325px;
+        width: 300px;
         height: 50px;
         margin-top: 150px;
         position: absolute;
