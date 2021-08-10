@@ -325,6 +325,7 @@ em{
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin: 0;
     gap: 25px;
 }
 #acco_model p{
@@ -982,6 +983,7 @@ h5{
     #regroupement2{
         width: auto;
     }
+
     .frame, .frame2{
         width: 300px;
 
