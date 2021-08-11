@@ -699,7 +699,7 @@ h5{
 }
 
 /* Phone responsive */
-@media screen and (min-width: 728px) and (max-width: 1024px) and (orientation: landscape){
+@media screen and (min-width: 728px) and (max-width: 1448px) and (orientation: landscape){
     
     #page_block{
         max-width: 1024px;
