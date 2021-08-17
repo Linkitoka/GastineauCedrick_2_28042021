@@ -29,6 +29,7 @@ body{
     margin-left: auto;
     margin-right: auto;  
     box-sizing: border-box;
+    padding-left: 10px;
     
 }
 /* -------------------------------------------*/
@@ -119,9 +120,11 @@ h1{
 h2{
     font-size: 1.1em;
     font-family: "raleway-light", serif;
-    line-height:5px;
     margin-bottom: 40px;
     letter-spacing: 1px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 h3{
@@ -542,7 +545,6 @@ h4 {
     width: 320px;
     height: 450px;
     justify-content: space-between;
-    align-items: center ;
 }
 .activity2{
     
@@ -699,7 +701,7 @@ h5{
 }
 
 /* Phone responsive */
-@media screen and (min-width: 728px) and (max-width: 1448px) and (orientation: landscape){
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
     
     #page_block{
         max-width: 1024px;
@@ -778,7 +780,7 @@ h5{
 
     }
 }
-@media screen and (min-width:451px) and (max-width:  1024px) {
+@media screen and (min-width:768px) and (max-width:  1024px) {
     
     #page_block {
         max-width: 760px;
@@ -859,10 +861,11 @@ h5{
 
     }
 }
-@media screen and (max-width: 450px)
+@media screen and (max-width: 767px)
 {
     #page_block{
         width: auto;
+        padding: 0;
         
     }
     nav{
@@ -993,11 +996,11 @@ h5{
     /* hebergment fini */
 
     #regroup_activity{
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
         justify-content: center;
         align-content: center;
         margin: auto;
+        grid-auto-columns: auto;
         
     }
     h4{
